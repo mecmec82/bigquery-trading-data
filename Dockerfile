@@ -25,4 +25,4 @@ COPY . .
 
 # Command to run your script when the container starts
 # This assumes your script is named download_upload_stock_data.py
-CMD ["python", "your_script_name.py"] 
+CMD ["python", "upload-data.py"] 
