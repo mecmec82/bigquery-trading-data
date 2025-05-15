@@ -208,6 +208,6 @@ if __name__ == "__main__":
             print(len(all_stock_data))
             print(all_stock_data.columns)
             print(all_stock_data.head(50))
-             #upload_data_to_bigquery(all_stock_data, PROJECT_ID, DATASET_ID, TABLE_ID)
+            upload_data_to_bigquery(all_stock_data, PROJECT_ID, DATASET_ID, TABLE_ID)
         else:
              print("No data was successfully downloaded for any ticker.")
